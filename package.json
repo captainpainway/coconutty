@@ -1,0 +1,15 @@
+{
+  "name": "coconutty",
+  "version": "1.0.0",
+  "description": "A WebVR game submission for js13k.",
+  "main": "compiled.js",
+  "scripts": {
+    "concat": "cat src/music.js src/alphnum.js src/objects.js src/crab.js src/info.js src/start.js src/logic.js src/score.js > compiled.js",
+    "minify": "minify compiled.js -o zip/compressed.js"
+  },
+  "author": "Mary Knize",
+  "license": "ISC",
+  "dependencies": {
+    "babel-minify": "^0.2.0"
+  }
+}
