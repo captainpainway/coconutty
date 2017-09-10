@@ -1049,7 +1049,9 @@ const hideCrab = element => {
     dur: '400'
   })(element);
   setTimeout(() => {
-    element.parentNode.removeChild(element);
+    if(element.parentNode !== null) {
+      element.parentNode.removeChild(element);
+    }
   }, 500);
 }
 
