@@ -5,7 +5,7 @@
   "main": "compiled.js",
   "scripts": {
     "concat": "cat src/music.js src/alphnum.js src/objects.js src/crab.js src/info.js src/start.js src/logic.js src/score.js > compiled.js",
-    "minify": "minify compiled.js -o dist/compressed.js"
+    "minify": "minify compiled.js -o docs/compressed.js"
   },
   "author": "Mary Knize",
   "license": "ISC",
